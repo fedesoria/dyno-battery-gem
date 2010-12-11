@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = "Submit request operations for dyno calculations on Heroku"
   gem.description = "Submit request operations for dyno calculations on Heroku"
   gem.email = "federico@dospuntocero.com.mx"
-  gem.authors = ["fedesoria"]
+  gem.authors = ["Federico Soria"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
    gem.add_runtime_dependency 'heroku'
