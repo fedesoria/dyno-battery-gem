@@ -15,13 +15,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "dyno-battery"
   gem.homepage = "http://github.com/fedesoria/dyno-battery"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "fedesoria@gmail.com"
+  gem.summary = "Submit request operations for dyno calculations on Heroku"
+  gem.description = "Submit request operations for dyno calculations on Heroku"
+  gem.email = "federico@dospuntocero.com.mx"
   gem.authors = ["fedesoria"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
+   gem.add_runtime_dependency 'heroku'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
